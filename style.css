@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+}
+#body{
+    background-image: linear-gradient(to top, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+#card-space{
+    background-color: #fff;
+    height: 80vh;
+    width:900px;
+    margin:auto;
+    border-radius: 3%;
+    margin-top: 100px;
+    padding-right: 20px;
+    box-shadow: 10px grey;
+    display:grid;
+    grid-template-columns: 50% 50%;
+
+}
+#img1{
+    margin-top:30px;
+    margin-right: -50px;
+}
+#img2{
+padding-right:700px;
+padding-bottom:250px;
+bottom: 50%;
+}
+#words{
+    font-size: larger;
+    padding:10%;
+}
+header{
+    font-weight: bolder;
+    font-size: 27px;
+    margin-bottom:35px;
+}
