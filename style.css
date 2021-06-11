@@ -3,29 +3,40 @@
     margin:0;
 }
 #body{
-    background-image: linear-gradient(to top, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 #card-space{
     background-color: #fff;
-    height: 80vh;
+    height: 75vh;
     width:900px;
     margin:auto;
     border-radius: 3%;
-    margin-top: 100px;
+    margin-top:100px;
     padding-right: 20px;
     box-shadow: 10px grey;
     display:grid;
     grid-template-columns: 50% 50%;
+    margin-bottom: 100px;
 
 }
 #img1{
     margin-top:30px;
     margin-right: -50px;
+    position: absolute;
+    left:150px;
+    top:150px;
+    clip: rect(0px,1000px,1000px, 65px);
 }
 #img2{
 padding-right:700px;
-padding-bottom:250px;
-bottom: 50%;
+position:absolute;
+top:320px;
+left:140px;
+}
+#img3{
+    position:absolute;
+    top:0px;
+    left:10px;
 }
 #words{
     font-size: larger;
@@ -35,4 +46,15 @@ header{
     font-weight: bolder;
     font-size: 27px;
     margin-bottom:35px;
+}
+.accords{
+    padding-top: 10px;
+}
+.quest{
+    margin:20px 0 20px 0 ;
+    cursor: pointer;
+}
+.accords :hover{
+    color:hsl(14, 88%, 65%);
+
 }
