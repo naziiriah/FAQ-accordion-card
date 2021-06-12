@@ -53,8 +53,40 @@ header{
 .quest{
     margin:20px 0 20px 0 ;
     cursor: pointer;
+    font-weight: 900;
 }
 .accords :hover{
     color:hsl(14, 88%, 65%);
 
 }
+.arrow {
+    border: solid hsl(14, 88%, 65%);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  #arr1{
+    position:relative;
+    left:30px;
+  }
+  #arr2{
+      position: relative;
+      left:30px;
+  }
+  #arr3{
+      position:relative;
+      left:100px;
+  }
+  #arr4{
+      position:relative;
+      left:100px;
+  }
+  #arr5{
+    position:relative;
+    left:55px;
+  }
+  .readBelow{
+      display: none;
+  }
